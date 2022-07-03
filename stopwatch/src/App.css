@@ -1,0 +1,92 @@
+.App {
+  box-shadow: rgba(230, 229, 229, 0.377) 0px 20px 50px,
+    rgba(121, 167, 107, 0.568) 0px -12px 30px, rgba(184, 157, 116, 0.425) 0px 4px 6px,
+    rgba(170, 131, 113, 0.514) 0px 12px 13px, rgba(163, 144, 119, 0.514) 0px -3px 5px;
+  color: white;
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  background-color: rgb(236, 236, 184);
+}
+.heading {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.heading > h3 {
+  cursor: pointer;
+  transition: 500ms ease;
+
+  width: 48%;
+  height: 100%;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.showcomponent {
+  text-align: center;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.b-border {
+  /* border-bottom: 2px solid red; */
+  box-shadow: rgba(245, 238, 37, 0.877) 0px 2px 1px,
+    rgba(241, 245, 5, 0.812) 0px 4px 2px, rgba(223, 215, 6, 0.09) 0px 8px 4px,
+    rgba(243, 239, 5, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.secondInput{
+  border: none;
+  width: 25%;
+  font-size: 20px;
+  padding: 1%;
+  box-sizing: border-box;
+  color: black;
+  border-radius: 5px;
+}
+::placeholder{
+  font-size: 15px;
+  color: rgb(167, 164, 164);
+}
+.secondInput:focus{
+  outline: none;
+}
+button{
+  padding: 5px 15px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.play{
+  background-color: green;
+}
+.play:hover{
+  background-color: rgb(12, 78, 221);
+}
+.pause{
+  background-color: yellow;
+  color: black;
+}
+.pause:hover{
+  background-color: green;
+}
+.reset{
+  background-color: red;
+}
+.reset:hover{
+  background-color: rgb(212, 30, 52);
+}
+button:focus{
+  outline: none;
+}
+.btnDiv{
+
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}

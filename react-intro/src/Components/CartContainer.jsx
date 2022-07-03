@@ -49,7 +49,7 @@ function CartContainer(){
         setData(updatedData);
     }
   return (
-    <div>
+    <div style={{border: "1px solid #C0DFD9", width:"400px", margin:"auto", backgroundColor:"#C0DFD9",borderRadius:"10px", padding:"1rem"}}>
        {
         data.map(item=> 
             <CartItem
